@@ -1,3 +1,115 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	margin-top: 51px;
+}
+
+h1 {	
+	text-align: center;
+	color: #4f4f4f;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+// Logo
+
+.companyLogo a {
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+.companyLogo a:hover {
+	text-decoration: none;
+}
+
+// Navigation
+
+.nav ul {
+	float: right;
+	margin-bottom: 0px;
+}
+
+.nav ul li {
+	padding: 20px 20px 20px 20px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.nav-item-last {
+	margin-right: 30px;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	background-color: #9E9E9E;
+	border-color: #9E9E9E;
+}
+
+.navbar-nav>li>a {
+	text-transform: uppercase;
+	transition: color 600ms;
+	transition: background-color 600ms;
+	border-radius: 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a.active {
+	background-color: #ebebeb;
+	color: #000000;
+	letter-spacing: 3px;
+	font-size: 12px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	background-color: #ebebeb;
+	border-radius: 15px;
+	color: #000000;
+}
+
+.navbar-nav>.active>a:hover {
+	background-color: #ebebeb;
+	border-radius: 15px;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #ebebeb;
+	border-radius: 15px;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color: #5f5f5f;
+	border-color: #ffffff;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color: #454545;
+	border-color: #ffffff;
+	color: #000000;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #454545;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	max-height: 500px;
+}
+
+// Footer
+
+footer {
+	text-align: center;
+}
