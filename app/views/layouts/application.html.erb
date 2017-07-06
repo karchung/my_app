@@ -25,7 +25,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<div class="companyLogo navbar-brand">
-						<a href="index.html.erb">Kelly Inc.</a>
+						<%=link_to "Kelly Inc.", "/static_pages/index" %>
 					</div> <!--end weddingWebsite -->
 				</div> <!--end navbar-header -->
 				<div class="navbar-collapse collapse">
@@ -34,12 +34,12 @@
 						<li><%=link_to "About", "/static_pages/about" %></li>
 						<li><%=link_to "Products", "/products" %></li>
 						<li><%=link_to "Contact", "/static_pages/contact" %></li>
-						<li class="nav-item-last"><form class="navbar-form" role="search">
+						<li class="nav-item-last"><div class="navbar-form" role="search">
 							<%= form_with(url: products_path, method: 'get') do |form| %> 
     						<%= form.text_field :q, id: 'q', value: params[:q], class: 'form-control' %>
 								<%= form.submit "Search", class: 'btn btn-default' %>
 							<% end %>
-						</form></li>
+						</div></li>
 					</ul>
 				</div> <!-- navbar-collapse -->
 			</div> <!-- end container-fluid-->
