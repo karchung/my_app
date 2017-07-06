@@ -34,16 +34,12 @@
 						<li><%=link_to "About", "/static_pages/about" %></li>
 						<li><%=link_to "Products", "/products" %></li>
 						<li><%=link_to "Contact", "/static_pages/contact" %></li>
-						<li class="nav-item-last">
-						<form class="navbar-form" role="search">
+						<li class="nav-item-last"><form class="navbar-form" role="search">
 							<%= form_with(url: products_path, method: 'get') do |form| %> 
-								<div type="text" class="form-group form-control">
-								  <%= form.text_field :q, id: 'q', value: params[:q] %>
-							  </div>
-								<button class="btn btn-default"><%= form.submit 'Search' %></button>
+    						<%= form.text_field :q, id: 'q', value: params[:q], class: 'form-control' %>
+								<%= form.submit "Search", class: 'btn btn-default' %>
 							<% end %>
-						</form>
-						</li>
+						</form></li>
 					</ul>
 				</div> <!-- navbar-collapse -->
 			</div> <!-- end container-fluid-->
