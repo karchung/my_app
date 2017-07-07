@@ -35,9 +35,9 @@
 						<li><%=link_to "Products", "/products" %></li>
 						<li><%=link_to "Contact", "/static_pages/contact" %></li>
 						<li class="nav-item-last"><div class="navbar-form" role="search">
-							<%= form_with(url: products_path, method: 'get') do |form| %> 
-    						<%= form.text_field :q, id: 'q', value: params[:q], class: 'form-control' %>
-								<%= form.submit "Search", class: 'btn btn-default' %>
+							<%= form_tag("/products", method: "get") do %>
+								<%= text_field_tag :q, nil, class: 'form-control' %>
+								<%= submit_tag("Search", :class => "btn btn-default" ) %>
 							<% end %>
 						</div></li>
 					</ul>
