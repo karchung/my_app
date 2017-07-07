@@ -66,13 +66,6 @@ class ProductsController < ApplicationController
     end
   end
 
-  def thank_you 
-    @name = params[:name] 
-    @email = params[:email] 
-    @message = params[:message] 
-    UserMailer.contact_form(@email, @name, @message).deliver_now 
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
