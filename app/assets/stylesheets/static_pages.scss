@@ -6,7 +6,7 @@ body {
 	margin-top: 80px;
 }
 
-h1 {	
+h1, h2 {	
 	text-align: center;
 	color: #4f4f4f;
 	font-family: Arial, Helvetica, sans-serif;
@@ -106,6 +106,13 @@ h1 {
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
 	max-height: 500px;
+}
+
+// Forms
+
+.form-body {
+	width: 80%;
+	margin: 0 auto;
 }
 
 // Footer

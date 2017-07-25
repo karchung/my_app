@@ -2,18 +2,20 @@
  
 <%= flash[:notice] %>
 
-<%= form_tag("/static_pages/thank_you") do %>
-  <div class="form-group">
-    <%= label_tag :name %>
-    <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name", :required => true %>
-  </div><!-- /form-group -->
-  <div class="form-group">
-    <%= label_tag :email, "Email Address" %>
-    <%= email_field_tag :email, nil, class: "form-control", placeholder: "Enter Email", :required => true %>
-  </div><!-- /form-group -->
-  <div class="form-group">
-    <%= label_tag :message %>
-    <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message", :required => true %>
-  </div><!-- /form-group -->
-  <%= submit_tag "Send", class: "btn btn-default btn-primary btn-block" %>
-<% end %>
+<div class="form-body" id="contact-us">
+  <%= form_tag("/static_pages/thank_you") do %>
+    <div class="form-group">
+      <%= label_tag :name %>
+      <%= text_field_tag :name, nil, class: "form-control", placeholder: "Enter Name", :required => true %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :email, "Email Address" %>
+      <%= email_field_tag :email, nil, class: "form-control", placeholder: "Enter Email", :required => true %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :message %>
+      <%= text_area_tag :message, nil, class: "form-control", placeholder: "Enter Message", :required => true %>
+    </div><!-- /form-group -->
+    <%= submit_tag "Send", class: "btn btn-default btn-primary btn-block" %>
+  <% end %>
+</div><!-- end form-body -->
