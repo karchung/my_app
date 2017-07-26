@@ -10,6 +10,7 @@ h1, h2 {
 	text-align: center;
 	color: #4f4f4f;
 	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 30px;
 }
 
 // Logo
@@ -113,6 +114,18 @@ h1, h2 {
 .form-body {
 	width: 80%;
 	margin: 0 auto;
+}
+
+// Product Details
+
+#product-details-page img {
+	float: right;
+}
+
+#product-details {
+	padding-bottom: 20px;
+	font-size: 1.2em;
+	font-family: Helvetica;
 }
 
 // Footer
