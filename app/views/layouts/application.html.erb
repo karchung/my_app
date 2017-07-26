@@ -3,8 +3,6 @@
 	<head>
 		<title>MyApp</title>
 		
-		<%= flash[:notice] %>
-		
 		<% if alert %>
 			<div class="alert alert-danger" role="alert"><%= alert %></div>
 		<% end %>
@@ -61,6 +59,8 @@
 				</div> <!-- navbar-collapse -->
 			</div> <!-- end container-fluid-->
 		</nav> <!-- end navbar-->
+		
+		<%= flash[:notice] %>
 
 		<%= yield %>
 
