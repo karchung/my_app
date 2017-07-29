@@ -1,4 +1,5 @@
 class Product < ApplicationRecord
+	validates :name, presence: true 
 	
 	def self.search(search_term)
 		if Rails.env.production?
