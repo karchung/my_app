@@ -38,6 +38,7 @@ group :development, :test do
 	gem 'sqlite3', platform: :ruby
 	gem 'jdbc-sqlite3', platform: :jruby
 	gem 'activerecord-jdbc-adapter', platform: :jruby
+	gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
@@ -59,3 +60,5 @@ gem 'devise'
 gem 'cancancan', '~> 1.10'
 
 gem 'will_paginate', '~> 3.1.0'
+
+gem 'rails-controller-testing'
