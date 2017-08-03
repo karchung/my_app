@@ -35,6 +35,13 @@
           <p><span id="product-details">Average Rating: </span><div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
         </div>
       </div>
+      <div class="row">
+        <div class="col-md-12">
+          <%= form_with(url: '/payments/create') do |form| %> 
+            <%= render partial: "shared/stripe_checkout_button" %> 
+          <% end %>
+        </div>
+      </div>
     </div>
   </div>
 </div>
