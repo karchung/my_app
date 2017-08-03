@@ -20,8 +20,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <span class="glyphicon glyphicon-usd"></span>
-          <div id="product-details"><%= @product.price %></div>
+          <div id="product-details"><%= number_to_currency(@product.price, :precision => 2) %></div>
         </div>
       </div>
       <div class="row">
