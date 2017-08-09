@@ -5,33 +5,33 @@
 <div class="container-fluid" id="product-details-page">
   <div class="row">
     <div class="col-md-6">
-      <div id="product-details"><%= image_tag(@product.image_url, class: "img-responsive img-zoom", data_zoom_image: @product.image_url) %></div>
+      <div class="product-details"><%= image_tag(@product.image_url, class: "img-responsive img-zoom", data_zoom_image: @product.image_url) %></div>
     </div>
     <div class="col-md-6">
       <div class="row">
         <div class="col-md-12">
-          <div id="product-details"><%= @product.name %></div>
+          <div class="product-details"><%= @product.name %></div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div id="product-details"><%= @product.description %></div>
+          <div class="product-details"><%= @product.description %></div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div id="product-details"><%= number_to_currency(@product.price, :precision => 2) %></div>
+          <div class="product-details"><%= number_to_currency(@product.price, :precision => 2) %></div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <div id="product-details"><strong>Color:</strong></div>
-          <div id="product-details"><%= @product.color %></div>
+          <div class="product-details"><strong>Color:</strong></div>
+          <div class="product-details"><%= @product.color %></div>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p><span id="product-details">Average Rating: </span><div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
+          <p><span class="product-details" id="average-rating">Average Rating: </span><div class="rated" data-score="<%= @product.average_rating %>"></div> </p>
         </div>
       </div>
       <div class="row">
