@@ -16,6 +16,8 @@ class ProductsController < ApplicationController
   # GET /products/1.json
   def show 
     @comments = @product.comments.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
+    @comment_count = @product.comments.count
+    @product.viewed!
   end
 
   # GET /products/new
