@@ -1,0 +1,259 @@
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 16, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 22, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 25, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 29, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 39, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 49, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 53, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 59, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 66, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 76, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 82, /home/ubuntu/workspace/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+/* line 5, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+body {
+  margin-top: 80px;
+}
+
+/* line 9, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+h1, h2 {
+  text-align: center;
+  color: #4f4f4f;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+/* line 18, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.companyLogo a {
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+/* line 23, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.companyLogo a:hover {
+  text-decoration: none;
+}
+
+/* line 29, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.nav ul {
+  float: right;
+  margin-bottom: 0px;
+}
+
+/* line 34, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.nav ul li {
+  padding: 20px 20px 20px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* line 41, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.nav-item-last {
+  margin-right: 30px;
+}
+
+/* line 45, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 49, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse {
+  background-color: #9E9E9E;
+  border-color: #9E9E9E;
+}
+
+/* line 54, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-nav > li > a {
+  text-transform: uppercase;
+  transition: color 600ms;
+  transition: background-color 600ms;
+  border-radius: 15px;
+}
+
+/* line 61, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+/* line 67, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav > li > a.active {
+  background-color: #ebebeb;
+  color: #000000;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+/* line 74, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #ebebeb;
+  border-radius: 15px;
+  color: #000000;
+}
+
+/* line 80, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-nav > .active > a:hover {
+  background-color: #ebebeb;
+  border-radius: 15px;
+  color: #000000;
+}
+
+/* line 86, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #ebebeb;
+  border-radius: 15px;
+  color: #000000;
+}
+
+/* line 92, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-toggle {
+  background-color: #5f5f5f;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+/* line 98, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #454545;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+/* line 104, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #454545;
+}
+
+/* line 108, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: 500px;
+}
+
+/* line 114, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.form-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 121, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.media {
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* line 126, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+#product-details-page img {
+  float: right;
+}
+
+/* line 130, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+.product-details {
+  padding-bottom: 20px;
+  font-size: 1.2em;
+  font-family: Helvetica;
+}
+
+/* line 138, /home/ubuntu/workspace/app/assets/stylesheets/static_pages.scss */
+footer {
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
