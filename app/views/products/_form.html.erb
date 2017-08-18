@@ -10,33 +10,29 @@
       </ul>
     </div>
   <% end %>
+  
+  <div class="form-body" id="contact-us">
+    <div class="form-group">
+      <%= label_tag :name %>
+      <%= form.text_field :name, id: :product_name, class: "form-control", :required => true %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :description %>
+      <%= text_area_tag :description, id: :product_description, nil, class: "form-control", :required => true %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :image_url %>
+      <%= form.text_field :image_url, id: :product_image_url %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :color %>
+      <%= text_field_tag :color, nil, class: "form-control", :required => true %>
+    </div><!-- /form-group -->
+    <div class="form-group">
+      <%= label_tag :price %>
+      <%= text_field_tag :price, nil, class: "form-control", :required => true %>
+    </div><!-- /form-group -->
+    <%= submit_tag "Submit", class: "btn btn-default btn-primary btn-block" %>
+  </div><!-- end form-body -->
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, id: :product_name %>
-  </div>
-
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description, id: :product_description %>
-  </div>
-
-  <div class="field">
-    <%= form.label :image_url %>
-    <%= form.text_field :image_url, id: :product_image_url %>
-  </div>
-
-  <div class="field"> 
-    <%= form.label :color %>
-    <%= form.text_field :color %>
-  </div>
-
-  <div class="field"> 
-    <%= form.label :price %>
-    <%= form.text_field :price %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
-  </div>
 <% end %>
