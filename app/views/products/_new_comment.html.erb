@@ -2,14 +2,14 @@
   <h4>Add a review:</h4> 
   <%= form_for([@product, @product.comments.build], remote: true) do |f| %>
     <p> 
-      <%= f.label :body, "Comments" %><br> 
-      <%= f.text_area :body %> 
+      <%= f.label :body, "Comments" %>
+      <%= f.text_area :body, class: "form-control" %> 
     </p> 
     <p> 
       <div class="rating"></div> 
     </p>
     <p> 
-      <%= f.submit "Submit" %> 
+      <%= submit_tag "Submit", class: "btn btn-default btn-primary btn-block" %> 
     </p> 
   <% end %> 
 <% end %>
