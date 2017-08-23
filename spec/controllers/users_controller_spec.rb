@@ -14,6 +14,7 @@ describe UsersController, type: :controller do
         expect(response).to have_http_status(200)
         expect(assigns(:user)).to eq @user
       end
+    end
       
     context 'when a user is not logged in' do 
       it 'redirects to login' do 
